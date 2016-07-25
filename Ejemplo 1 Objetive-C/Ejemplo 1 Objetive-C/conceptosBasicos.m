@@ -23,11 +23,11 @@ bool variableBool = YES;
 
 if (a == b){
  //this
-}
+};
 
 else {
 //that
-}
+};
 
 switch (number){
     case 1:
@@ -40,4 +40,28 @@ switch (number){
     default:
         //none of the above
         break;
-}
+};
+
+//Ciclos
+
+do{
+    //something
+}while (a > b);
+
+while (a > b) {
+    //loop
+};
+
+for (int i=0; i < 10; i++){
+    //loop
+};
+
+
+
+
+
+
+
+
+
+
