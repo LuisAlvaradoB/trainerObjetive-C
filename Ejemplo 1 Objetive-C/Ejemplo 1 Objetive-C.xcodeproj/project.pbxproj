@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E92303D61D46777300578663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E92303D51D46777300578663 /* main.m */; };
+		E92303DD1D4677B000578663 /* conceptosBasicos.m in Sources */ = {isa = PBXBuildFile; fileRef = E92303DC1D4677B000578663 /* conceptosBasicos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		E92303D21D46777300578663 /* Ejemplo 1 Objetive-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Ejemplo 1 Objetive-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E92303D51D46777300578663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E92303DC1D4677B000578663 /* conceptosBasicos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = conceptosBasicos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				E92303D51D46777300578663 /* main.m */,
+				E92303DC1D4677B000578663 /* conceptosBasicos.m */,
 			);
 			path = "Ejemplo 1 Objetive-C";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E92303D61D46777300578663 /* main.m in Sources */,
+				E92303DD1D4677B000578663 /* conceptosBasicos.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
