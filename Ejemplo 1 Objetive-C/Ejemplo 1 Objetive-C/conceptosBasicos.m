@@ -9,3 +9,11 @@
 #import <Foundation/Foundation.h>
 
 // Conceptos Básicos en objetive-C
+
+// Tipos de Variables
+
+int variableInt = 12;
+float variableFloat = 1.2;
+double variableDouble = 1.234;
+char variableChar = 123;
+bool variableBool = YES;
