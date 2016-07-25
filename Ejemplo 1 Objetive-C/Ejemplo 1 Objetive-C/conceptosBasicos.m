@@ -17,3 +17,27 @@ float variableFloat = 1.2;
 double variableDouble = 1.234;
 char variableChar = 123;
 bool variableBool = YES;
+
+
+// Condicionales
+
+if (a == b){
+ //this
+}
+
+else {
+//that
+}
+
+switch (number){
+    case 1:
+        //something
+        break;
+    case 2:
+        //something
+        break;
+        
+    default:
+        //none of the above
+        break;
+}
