@@ -18,6 +18,9 @@ int calcularCuadrado (int x) {
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
        
+        int nombreVariable = 1;
+        
+        NSLog(@"Mi variable tiene un valor de : %i", nombreVariable);
         
         NSLog(@"El resultado es : %i", calcularCuadrado(2));
         
