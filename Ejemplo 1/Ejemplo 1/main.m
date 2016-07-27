@@ -32,6 +32,15 @@ int main(int argc, const char * argv[]) {
         
         int nombreVariable = 1;
         
+        //Ejercicio con constantes
+        
+#define CAMBIO_US 610
+        float cambio, resultado;
+        NSLog(@"Ingrese la cantidad de peso CLP que quiere cambiar :");
+        scanf("%f", &cambio );
+        
+        resultado = cambio * CAMBIO_US;
+        NSLog(@"El cambio es : %.2f", resultado);
         
         
         
