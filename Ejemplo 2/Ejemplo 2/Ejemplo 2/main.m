@@ -11,7 +11,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
       
-        int temperatura = 15;
+        int temperatura = 23;
         
         if (temperatura >= 22) {
             NSLog(@"Hace calor");
