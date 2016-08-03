@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
         int temperatura = 23;
         
         if (temperatura >= 22) {
-            NSLog(@"Hace calor");
+            NSLog(@"Hace mucha calor");
         }else {
             NSLog(@"Hce una temperatura agradable");
     }
