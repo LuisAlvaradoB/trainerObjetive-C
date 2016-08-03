@@ -22,46 +22,58 @@ int main(int argc, const char * argv[]) {
     //}
         
         
-        //Ejercicio con switch
+
+       //Ejercicio con switch
+
+//        float a,b,resultado;
+//        int operacion;
+
+//        NSLog(@"Ingresa tu primer número: ");
+//        scanf("%f",&a);
         
-        float a,b,resultado;
-        int operacion;
+//        NSLog(@"Ingresa tu segundo numero: ");
+//        scanf("%f", &b);
         
-        NSLog(@"Ingresa tu primer número: ");
-        scanf("%f",&a);
+//        NSLog(@"Para sumar escribe 1\n");
+//        NSLog(@"Para restar escribe 2\n");
+//        NSLog(@"Para dividir escribe 3\n");
+//        NSLog(@"Para multiplicar escribe 4\n");
+//        NSLog(@"Elije operación : ");
         
-        NSLog(@"Ingresa tu segundo numero: ");
-        scanf("%f", &b);
+//        scanf("%i", &operacion);
         
-        NSLog(@"Para sumar escribe 1\n");
-        NSLog(@"Para restar escribe 2\n");
-        NSLog(@"Para dividir escribe 3\n");
-        NSLog(@"Para multiplicar escribe 4\n");
-        NSLog(@"Elije operación : ");
+//        switch (operacion) {
+//            case 1:
+//                resultado = a+b;
+//                printf("El resultado es : %.2f", resultado);
+//                break;
+//            case 2:
+//                resultado = a-b;
+//                printf("El resultado es : %.2f", resultado);
+//                break;
+//            case 3:
+//                resultado = a/b;
+//                printf("El resultado es : %.2f", resultado);
+//                break;
+//            case 5:
+//                resultado = a*b;
+//                printf("El resultado es: %.2f", resultado);
+//                break;
+//            default:
+//                NSLog(@"No conozco esa operación");
+//                break;
+//        }
+  
         
-        scanf("%i", &operacion);
         
-        switch (operacion) {
-            case 1:
-                resultado = a+b;
-                printf("El resultado es : %.2f", resultado);
-                break;
-            case 2:
-                resultado = a-b;
-                printf("El resultado es : %.2f", resultado);
-                break;
-            case 3:
-                resultado = a/b;
-                printf("El resultado es : %.2f", resultado);
-                break;
-            case 5:
-                resultado = a*b;
-                printf("El resultado es: %.2f", resultado);
-                break;
-            default:
-                NSLog(@"No conozco esa operación");
-                break;
+        int i;
+        for (i=0; i <=10; i++) {
+            NSLog(@"Bucle se repite %i", i);
         }
+        
+        
+        
+        
         
   }return 0;
 }
