@@ -66,12 +66,16 @@ int main(int argc, const char * argv[]) {
   
         
         
-        int i;
-        for (i=0; i <=10; i++) {
-            NSLog(@"Bucle se repite %i", i);
-        }
+//        int i;
+//        for (i=0; i <=10; i++) {
+//            NSLog(@"Bucle se repite %i", i);
+//        }
         
-        
+        int x = 1;
+        do {
+            NSLog(@"Bucle finito");
+            x++;
+        } while (x <= 5);
         
         
         
